@@ -88,3 +88,11 @@ button:active button:hover .btn:active,
   z-index: 999;
   transition: background 1s ease;
 }
+
+/* .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2) !important;
+  margin-left: calc(var(--bs-gutter-x) / -2) !important;
+} */

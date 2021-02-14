@@ -3,10 +3,10 @@
 /* @import url(./fonts.css); */
 
 /* css variables */
-@import url(./css/partials/_variables.css);
+@import url(./assets/css/partials/_variables.css);
 
 /* global styling */
-@import url(./css/partials/_globals.css);
+@import url(./assets/css/partials/_globals.css);
 
 /* start navigation */
 
@@ -51,7 +51,7 @@
 /* Banner Area */
 
 .site-banner {
-  background: url(./img/banner/home-banner.png) no-repeat;
+  background: url(./assets/img/banner/home-banner.png) no-repeat;
   background-position: 0% 50%;
 }
 
@@ -83,6 +83,11 @@
   width: 90rem;
 }
 
+.site-main .site-banner .button {
+  width: 138.11px;
+  height: 51.59px;
+}
+
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none; /* Chrome all / Safari all */
@@ -99,6 +104,8 @@
 
 .site-main .about-area {
   padding: 8rem 5rem;
+  background-color: #1687a7;
+  /* background-color: #276678; */
 }
 
 .site-main .about-area .about-title h2 > span {
@@ -159,7 +166,7 @@
 }
 
 .site-main .brand-area .experience-area .years-area {
-  background: url(./img/client-info-bg.png) no-repeat 45px 20px;
+  background: url(./assets/img/client-info-bg.png) no-repeat 45px 20px;
   padding: 2rem 0;
   width: 40rem;
   height: 18rem;
@@ -262,7 +269,7 @@
 
 footer.footer-area {
   padding: 5rem 0;
-  background: url(./img/footer-soowon.png) no-repeat;
+  background: url(./assets/img/footer-soowon.png) no-repeat;
   background-size: cover;
 }
 

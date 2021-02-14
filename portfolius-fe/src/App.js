@@ -6,14 +6,20 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './index.css';
 import Nav from './components/NavComponent';
 import Banner from './components/Banner';
+import About from './components/About';
+import Brand from './components/Brand';
 
 
 function App() {
   return (
-    <div className="site-main">
+    <>
       <Nav/>
-      <Banner/>
-    </div>
+      <div className="site-main">
+        <Banner/>
+        <About/>
+        <Brand/>
+      </div>
+    </>
   );
 }
 
