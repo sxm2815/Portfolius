@@ -8,6 +8,7 @@ import Nav from './components/NavComponent';
 import Banner from './components/Banner';
 import About from './components/About';
 import Brand from './components/Brand';
+import Services from './components/Services';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Banner/>
         <About/>
         <Brand/>
+        <Services/>
       </div>
     </>
   );
