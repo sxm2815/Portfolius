@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Image, Row } from 'react-bootstrap';
 import banner from '../assets/img/banner/banner-test.png'
 
 function Banner() {
@@ -19,7 +19,7 @@ function Banner() {
             </div>
           </div>
           <div className="col-lg-6 col-md-12 banner-image noselect">
-            <img src={banner} alt="banner" className="img-fluid" />
+            <Image src={banner} alt="banner" fluid/>
           </div>
         </Row>
       </Container>

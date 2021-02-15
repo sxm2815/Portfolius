@@ -1,4 +1,5 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
 import { brand_data } from '../constants/brandData';
 
 
@@ -13,7 +14,7 @@ function Brand() {
                 // map brand data stuff here
                 <div className="col-lg-4 col-md-6 col-sm-6" key={item.alt}>
                   <div className="single-brand">
-                    <img src={item.src} alt={item.alt} className={item.class}/>
+                    <Image src={item.src} alt={item.alt} className={item.class} fluid/>
                   </div>
                 </div>
               ))}

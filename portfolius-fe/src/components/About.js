@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
+import { Image, Row } from 'react-bootstrap';
 import about_image from '../assets/img/about-us.png';
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
         <Row>
           <div className="col-lg-6 col-md-12">
             <div className="about-image">
-              <img src={about_image} alt="About us" className="img-fluid noselect"/>
+              <Image src={about_image} alt="About us" className="noselect" fluid/>
             </div>  
           </div>
           <div className="col-lg-6 col-md-12 about-title">

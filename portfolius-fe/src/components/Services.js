@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Image, Row } from 'react-bootstrap';
 import { service_data } from '../constants/servicesData';
 
 function Services() {
@@ -21,7 +21,7 @@ function Services() {
               <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="services">
                 <div className="services-img text-center py-4">
-                  <img src={item.src} alt={item.alt}/>
+                  <Image src={item.src} alt={item.alt} fluid/>
                 </div>
                 <div className="card-body text-center">
                   <h5 className="card-title text-uppercase font-roboto">{item.h5_content}</h5>

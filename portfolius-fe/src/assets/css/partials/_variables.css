@@ -10,16 +10,24 @@ body {
 /* CSS Variables */
 
 :root {
-  --primary-color: #4458dc;
-  --primary-color2: #854fee;
+  --primary-color: #1687a7;
+  --primary-color2: #276678;
+  --secondary-color: #f6f5f5;
+  --secondary-color2: #d3e0ea;
   --title-color: #141313;
   --text-color: #777777;
   --border-color: #201f1f18;
   /* --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%); */
   --gradient-color: linear-gradient(90deg, #1687a7 0%, #276678 100%);
+  --gradient-color2: linear-gradient(180deg, #f6f5f5 0%, #d3e0ea);
   --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 
   /* font family variables */
-  --roboto: 'Roboto', cursive;
+  --roboto: 'roboto', cursive;
+  --caviar: 'caviar_dreams';
+  --comfortaa: 'comfortaa';
+  --geo_sans_light: 'geo_sans_light';
+  --louis_george_caf: 'louis_george_caf';
+  --modern_sans: 'modern_sans';
 }
