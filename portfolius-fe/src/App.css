@@ -1,12 +1,12 @@
 /* import forms from fonts.css */
 
-/* @import url(./fonts.css); */
+@import url(./assets/css/fonts.css);
 
 /* css variables */
-@import url(./css/partials/_variables.css);
+@import url(./assets/css/partials/_variables.css);
 
 /* global styling */
-@import url(./css/partials/_globals.css);
+@import url(./assets/css/partials/_globals.css);
 
 /* start navigation */
 
@@ -17,6 +17,16 @@
 /* .mr-auto {
   margin-left: auto;
 } */
+
+nav {
+  background-color: var(--secondary-color);
+}
+.header-logo {
+  max-width: 500px;
+  width: 8rem;
+  float: left;
+  z-index: -99;
+}
 
 .header_area .main-menu .navbar {
   padding: 1rem 20rem;
@@ -39,8 +49,16 @@
   background-clip: text;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--gradient-color) !important;
+}
+
+.nav-link:active {
+  color: var(--primary-color) !important;
+}
+
 .header_area .main-menu .navbar-nav a:hover {
-  background: var(--gradient-color);
+  color: var(--gradient-color) !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -51,7 +69,7 @@
 /* Banner Area */
 
 .site-banner {
-  background: url(./img/banner/home-banner.png) no-repeat;
+  background: url(./assets/img/banner/home-banner.png) no-repeat;
   background-position: 0% 50%;
 }
 
@@ -83,6 +101,11 @@
   width: 90rem;
 }
 
+.site-main .site-banner .button {
+  width: 138.11px;
+  height: 51.59px;
+}
+
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none; /* Chrome all / Safari all */
@@ -99,6 +122,10 @@
 
 .site-main .about-area {
   padding: 8rem 5rem;
+  /* background-color: #f6f5f5; */
+  /* background-color: #d3e0ea; */
+  background-color: #1687a7;
+  /* background-color: #276678; */
 }
 
 .site-main .about-area .about-title h2 > span {
@@ -108,10 +135,13 @@
   /* was originally letter-spacing: 21px; */
   /* ask soowon about the letter spacing */
   letter-spacing: 0.5rem;
+  color: #f6f5f5;
 }
 
 .site-main .about-area .about-title .paragraph > p {
   padding: 0.4rem 0;
+  color: #f6f5f5;
+  font: normal bold 1rem/1.6rem var(--roboto);
 }
 
 /* End About Area */
@@ -140,6 +170,8 @@
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
   width: 50%;
+  filter: brightness(0.8) grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
@@ -147,7 +179,7 @@
   transform: scale(1.1);
 }
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img {
-  filter: brightness(0.15);
+  filter: brightness(1);
 }
 
 .site-main .brand-area .experience-area {
@@ -159,7 +191,7 @@
 }
 
 .site-main .brand-area .experience-area .years-area {
-  background: url(./img/client-info-bg.png) no-repeat 45px 20px;
+  background: url(./assets/img/client-info-bg.png) no-repeat 45px 20px;
   padding: 2rem 0;
   width: 40rem;
   height: 18rem;
@@ -262,7 +294,8 @@
 
 footer.footer-area {
   padding: 5rem 0;
-  background: url(./img/footer-soowon.png) no-repeat;
+  /* background: url(./assets/img/footer-soowon.png) no-repeat; */
+  background: var(--gradient-color2) !important;
   background-size: cover;
 }
 
@@ -278,6 +311,10 @@ footer.footer-area .social a > i {
 
 footer.footer-area .social a:hover > i {
   color: var(--primary-color);
+}
+
+.footer-logo {
+  width: 10rem;
 }
 
 /* End Footer Area */

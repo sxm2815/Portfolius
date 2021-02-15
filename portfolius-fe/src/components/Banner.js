@@ -1,11 +1,12 @@
 import React from 'react';
-import banner from '../img/banner/banner-test.png'
+import { Container, Image, Row } from 'react-bootstrap';
+import banner from '../assets/img/banner/banner-test.png'
 
 function Banner() {
   return (
     <section className="site-banner">
-      <div className="container">
-        <div className="row">
+      <Container>
+        <Row>
           <div className="col-lg-6 col-md-12 site-title">
             <h3 className="title-text">Hey</h3>
             <h1 className="title-text text-uppercase">I am Karnowsky</h1>
@@ -18,10 +19,10 @@ function Banner() {
             </div>
           </div>
           <div className="col-lg-6 col-md-12 banner-image noselect">
-            <img src={banner} alt="banner" className="img-fluid" />
+            <Image src={banner} alt="banner" fluid/>
           </div>
-        </div>
-      </div>
+        </Row>
+      </Container>
     </section>
   )
 }
