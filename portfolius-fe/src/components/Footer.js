@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer-area img-fluid">
       <Container>
         <div className="flex-wrap">
-          <div className="site-logo text-center py-4">
+          <div className="site-logo text-center py-4 noselect">
             <a href="_">
               <Image src={footer_image} alt="logo" fluid className="footer-logo"/>
             </a>

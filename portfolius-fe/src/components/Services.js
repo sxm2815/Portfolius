@@ -18,9 +18,9 @@ function Services() {
         <div className="contain services-list">
           <Row>
             {service_data.map((item)=>(
-              <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="col-lg-3 col-md-6 col-sm-12" key={item.alt}>
               <div className="services">
-                <div className="services-img text-center py-4">
+                <div className="services-img text-center py-4 noselect">
                   <Image src={item.src} alt={item.alt} fluid/>
                 </div>
                 <div className="card-body text-center">

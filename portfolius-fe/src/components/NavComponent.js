@@ -5,7 +5,7 @@ import { Navbar, Nav, NavDropdown, Image } from 'react-bootstrap';
 function NavComponent() {
   return (
     <>
-    <div className="mr-auto header-logo">
+    <div className="mr-auto header-logo noselect">
       <a href="_">
         <Image src={footer_image} alt="logo" fluid className="nav-logo"/>
       </a>
