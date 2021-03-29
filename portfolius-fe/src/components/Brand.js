@@ -14,7 +14,7 @@ function Brand() {
                 // map brand data stuff here
                 <div className="col-lg-4 col-md-6 col-sm-6" key={item.alt}>
                   <div className="single-brand">
-                    <Image src={item.src} alt={item.alt} className={item.class} fluid/>
+                    <Image src={item.src} alt={item.alt} className={item.class, item.alt + "-service"} fluid/>
                   </div>
                 </div>
               ))}

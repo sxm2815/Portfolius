@@ -259,6 +259,10 @@ nav {
   box-shadow: var(--box-shadow);
 }
 
+.mongo-service {
+  /* height: 64px !important; */
+}
+
 /* End Services Area */
 
 /* Start Project Area */
