@@ -20,6 +20,7 @@ body {
   /* --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%); */
   --gradient-color: linear-gradient(90deg, #1687a7 0%, #276678 100%);
   --gradient-color2: linear-gradient(180deg, #f6f5f5 0%, #d3e0ea);
+  --nav-gradient-color: linear-gradient(90deg, #1687a7 100%, #f6f5f5 100%);
   --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 

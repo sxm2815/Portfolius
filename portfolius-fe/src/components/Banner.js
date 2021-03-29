@@ -7,7 +7,7 @@ function Banner() {
     <section className="site-banner">
       <Container fluid>
         <Row>
-          <Col className="col-lg-6 col-md-12 site-title">
+          <Col className="col-lg-6 col-md-12 site-title" lg={{offset: 1}}>
             <h3 className="title-text">Hey</h3>
             <h1 className="title-text text-uppercase">I am Karnowsky</h1>
             <h4 className="title-text text-uppercase">WordPress Developer</h4>
