@@ -12,12 +12,12 @@ function NavComponent() {
           <Image src={footer_image} alt="logo" fluid className="nav-logo"/>
         </a>
       </div> */}
-      <Navbar expand="lg" sticky="top">
+      <Navbar expand="lg" >
         <Navbar.Brand href="#home">
           <Image 
             src={footer_image} fluid
-            width="60"
-            height="60"
+            width="80"
+            height="80"
             alt="MoonTree logo"
             className=""
           />
