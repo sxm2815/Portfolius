@@ -11,7 +11,7 @@ import About from './components/About';
 import Brand from './components/Brand';
 import Services from './components/Services';
 import Footer from './components/Footer';
-import ModalTest from './components/ModalTest';
+import ServiceModal from './components/ServiceModal';
 import { Button } from 'react-bootstrap';
 
 
